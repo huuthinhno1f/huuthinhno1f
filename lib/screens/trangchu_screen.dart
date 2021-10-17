@@ -32,26 +32,6 @@ class _TrangChuScreenState extends State<TrangChuScreen>
       store.getItem();
     });
     super.initState();
-    var initializationSettingsAndroid =
-        const AndroidInitializationSettings('flutter_devs');
-    var initSetttings =
-        InitializationSettings(android: initializationSettingsAndroid);
-
-    flutterLocalNotificationsPlugin.initialize(initSetttings);
-  }
-
-  showNotification() async {
-    FlutterLocalNotificationsPlugin localNotifPlugin =
-        FlutterLocalNotificationsPlugin();
-    var androidChannelSpecifics = const AndroidNotificationDetails(
-      'default',
-      'Test App Notifications',
-    );
-    var iOSChannelSpecifics = const IOSNotificationDetails();
-    var platformChannelSpecifics = NotificationDetails(
-        android: androidChannelSpecifics, iOS: iOSChannelSpecifics);
-    localNotifPlugin.show(0, "Test Notificaiton",
-        "This is your test notification! :)", platformChannelSpecifics);
   }
 
   @override
@@ -70,11 +50,7 @@ class _TrangChuScreenState extends State<TrangChuScreen>
                   padding: const EdgeInsets.only(left: 5),
                   alignment: Alignment.centerLeft,
                   child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        showNotification();
-                      });
-                    },
+                    onTap: () {},
                     child: const Icon(
                       Icons.link,
                       color: Colors.black87,
