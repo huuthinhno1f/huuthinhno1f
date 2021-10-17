@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51953149623",
+    "project_id": "earnmoneyapp-d348c",
+    "storage_bucket": "earnmoneyapp-d348c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51953149623:android:6b0ac7d8e040c86daecf32",
+        "android_client_info": {
+          "package_name": "com.example.app_earn_money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51953149623-3qncp5ghikoh4k6vrib0nqd600jeaiom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoZHhSNwi6RvDU-UN960V3otEuTdLVyr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51953149623-3qncp5ghikoh4k6vrib0nqd600jeaiom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
