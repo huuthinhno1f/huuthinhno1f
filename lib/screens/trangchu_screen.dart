@@ -55,6 +55,10 @@ class _TrangChuScreenState extends State<TrangChuScreen>
                   ),
                 ),
               ),
+              Image.asset(
+                'assets/iconforever.png',
+                color: Colors.green,
+              ),
               Text(
                 'FOREVER',
                 style: GoogleFonts.alegreya(
