@@ -36,7 +36,7 @@ class _TrangChuScreenState extends State<TrangChuScreen>
     return Scaffold(
       appBar: PreferredSize(
         child: Container(
-          height: 50,
+          height: 5022,
           width: double.infinity,
           alignment: Alignment.center,
           child: Row(
