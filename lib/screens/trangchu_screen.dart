@@ -8,7 +8,6 @@ import 'package:app_earn_money/widgets/thongbao_widget.dart';
 import 'package:app_earn_money/widgets/thuonggiavip_widget.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,8 +22,6 @@ class _TrangChuScreenState extends State<TrangChuScreen>
   final store = Get.put(StoreController());
   late TabController _tabController;
   final indexController = Get.put(IndexController());
-  FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-      FlutterLocalNotificationsPlugin();
   @override
   void initState() {
     _tabController = TabController(vsync: this, length: 2);
@@ -57,10 +54,6 @@ class _TrangChuScreenState extends State<TrangChuScreen>
                     ),
                   ),
                 ),
-              ),
-              Image.asset(
-                'assets/iconforever.png',
-                color: Colors.green,
               ),
               Text(
                 'FOREVER',
